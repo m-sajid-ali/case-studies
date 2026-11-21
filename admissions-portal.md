@@ -70,7 +70,7 @@ After the redeployment, a new issue appeared: database connections were left **i
 
 ## Results
 
-- The portal handled admission-season traffic for roughly 20,000–25,000 applicants without the earlier crashes.
+- The portal handled admission-season traffic for roughly 8,000–12,000 applicants without the earlier crashes.
 - Updates and restarts became repeatable through Docker Compose instead of manual steps.
 - Missed-configuration and out-of-order startup failures were eliminated.
 - The database is isolated on a private Docker network with no public port.

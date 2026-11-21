@@ -2,7 +2,7 @@
 
 **Role:** Designed and implemented the full production deployment
 **Stack:** Docker · Docker Compose · Nginx · Gunicorn · Django · PostgreSQL · Cloudflare · Bash/cron · TLS
-**Scale:** Graduate and undergraduate admissions — roughly 20,000–25,000 applicants
+**Scale:** Graduate and undergraduate admissions — roughly 8,000–12,000 applicants
 
 ---
 

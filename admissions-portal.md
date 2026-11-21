@@ -77,7 +77,5 @@ After the redeployment, a new issue appeared: database connections were left **i
 - Every application on the server got HTTPS, with certificates managed in one place.
 
 ## Lessons Learned
-
-- A single worker with no reverse proxy is a capacity limit you only discover under real load. Size for peak traffic, not average.
-- Fixing throughput can expose the next bottleneck. Here it was connection handling in the database.
-- Centralizing TLS and routing reduced day-to-day operational work for the whole server, not just this one app.
+- **Size for peak, not average.** A single worker held up on normal days and collapsed at deadlines. Capacity has to be planned for the busiest hour.
+- **Every fix can expose the next bottleneck.** Adding workers multiplied database connections, which surfaced the idle-connection problem.

@@ -1,4 +1,4 @@
-# Production Case Studies — Muhammad Sajid Ali
+# Production Case Studies
 
 Real systems I deployed and operated in production, covering the **problem, diagnosis, architecture, decisions, and results**.
 

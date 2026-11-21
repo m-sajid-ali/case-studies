@@ -5,7 +5,7 @@ Real systems I deployed and operated in production, covering the **problem, diag
 ---
 
 ### [University Admissions Portal →](admissions-portal.md)
-Diagnosed and fixed crashes under peak admission load (~20–25k applicants). Containerized the app, isolated the database on a private network, tuned the app server and database, and centralized TLS for every app on the server.
+Diagnosed and fixed crashes under peak admission load (~8–12k applicants). Containerized the app, isolated the database on a private network, tuned the app server and database, and centralized TLS for every app on the server.
 
 `Docker` `Docker Compose` `Nginx` `Gunicorn` `Django` `PostgreSQL` `Cloudflare`
 
